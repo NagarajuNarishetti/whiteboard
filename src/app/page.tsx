@@ -162,6 +162,7 @@ export default function Home() {
       y,
       prevX: prev.x,
       prevY: prev.y,
+      color: userColor,
       lineWidth,
     };
     drawSegment({ ...payload, color: userColor, username: username || "" });
