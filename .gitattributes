@@ -1,0 +1,22 @@
+# Tune GitHub Linguist language stats and classification
+
+# Treat server as JavaScript runtime code
+server.js linguist-language=JavaScript
+
+# Ensure Next.js/TypeScript app code is recognized
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+
+# Count CSS from Tailwind and our globals
+*.css linguist-language=CSS
+
+# Exclude build outputs if any appear
+.next/** linguist-vendored
+dist/** linguist-vendored
+out/** linguist-vendored
+
+# Ignore lockfiles and config from language stats
+package-lock.json linguist-generated
+postcss.config.mjs linguist-generated
+next.config.ts linguist-generated
+

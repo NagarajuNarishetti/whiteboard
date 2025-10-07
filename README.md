@@ -1,5 +1,30 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Tech Stack
+
+We use a mix of frontend, backend, runtime, and tooling technologies beyond what GitHub Linguist infers from file extensions:
+
+- **Framework**: Next.js (App Router)
+- **Language**: TypeScript + modern JavaScript (ES2020+)
+- **Realtime**: Socket.IO (server and client)
+- **UI / Styling**: Tailwind CSS v4 (via `@tailwindcss/postcss`), CSS Variables
+- **Fonts**: `next/font` with Geist/Geist Mono
+- **Runtime**: Node.js HTTP server combining Next.js and Socket.IO (`server.js`)
+- **Build/Deploy**: Vercel (custom Node build) and Render (YAML config)
+- **Linting**: ESLint (Next.js config)
+- **Tooling**: PostCSS
+
+Badges
+
+![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=fff)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?logo=socketdotio&logoColor=fff)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwindcss&logoColor=fff)
+![PostCSS](https://img.shields.io/badge/PostCSS-DD3A0A?logo=postcss&logoColor=fff)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=fff)
+![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=fff)
+![Render](https://img.shields.io/badge/Render-46E3B7?logo=render&logoColor=000)
+
 ## Getting Started
 
 First, run the development server:
